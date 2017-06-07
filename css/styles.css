@@ -7,6 +7,10 @@
     
 }
 
+button{
+    outline: none !important;
+}
+
 a{
     text-decoration: none;
 }
@@ -150,12 +154,24 @@ button.search__btn{
     box-sizing: border-box;
     
 }
-p.about__desc-top{
+.about__desc-top{
     color: darkgrey;
+  
 }
 
-p.about__desc-bottom{
+.about__desc-bottom{
+    display: block;
     color: #393939;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about__description-btn{
+     font-size: 13px;
+    color: #fff;
+    background: #969697;
+    border: none;
+    padding: 10px 25px;
 }
 
 .recent-works h3{
@@ -230,9 +246,7 @@ p.about__desc-bottom{
     bottom: 10px;
 }
 
-.works__item__bottom span{
-   
-}
+
 
 .icon__holder{
    position: absolute;
@@ -342,4 +356,9 @@ div.works__item:hover .likes{
    margin-left: -83px;
   margin-right: 0px;
     width: 85px;
+}
+.about__desc {
+     height: 80px;
+	overflow: hidden;
+   
 }
